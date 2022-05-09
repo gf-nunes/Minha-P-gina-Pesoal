@@ -1,0 +1,114 @@
+body{
+    background-color: #2e2d4c;
+    font-family: "Lora", serif;
+}
+
+.titulo {
+    margin-top: 50px;
+    font-family: "Courier New", Courier, monospace;
+}
+  
+.titulo--fonte {
+    font-family: "Exo 2", sans-serif;
+    font-size: 1.9rem;
+}
+  
+.fonte--grande {
+    font-size: 3.2rem;
+}
+  
+.fonte--media {
+    font-size: 1.7rem;
+}
+
+.fonte--pequena {
+    font-size: 1.2rem;
+}
+  
+.background {
+    background-image: url(../img/background-foods-v4.png);
+    background-attachment: fixed;
+    background-color: #2e2d4c;
+    padding: 2px;
+}
+  
+.cabecalho {
+    width: 72%;
+    color: #fff;
+    margin: 100px auto;
+    padding: 30px;
+    text-align: center;
+}
+  
+.conteudo {
+    line-height: 3rem;
+    width: 72%;
+    max-width: 940px;
+    color: #4d3c64;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    margin: auto;
+    margin-bottom: 220px;
+    padding: 60px;
+    box-shadow: -10px 8px 30px #312f2f;
+    z-index: 2;
+}
+  
+.subtitle--color {
+    color: #c0bcc9;
+}
+  
+.avatar {
+    width: 140px;
+    float: left;
+    margin-right: 20px;
+}
+
+.logo {
+    text-align: center;
+}
+  
+.logo img {
+    width: 180px;
+    margin-bottom: 20px;
+  }
+
+.menu li{
+    display: inline-block;
+    width: 150px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.menu li a:link,
+.menu li a:visited {
+   color: rgb(235, 193, 200);
+   text-decoration: none;
+}
+
+.conteudo{
+    margin-top: 0%;
+    width: 72%;
+    background-color: blueviolet;
+    margin: 120px auto;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.habilidades label {
+    width: 280px;
+    display: inline-block;
+  }
+  
+.habilidades progress {
+    accent-color: #2e2d4c;
+}
+
+.footer .links a {
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+  
+.footer .links a:hover {
+    color: #fff;
+}
