@@ -26,7 +26,6 @@ body{
 }
   
 .background {
-    background-image: url(../img/background-foods-v4.png);
     background-attachment: fixed;
     background-color: #2e2d4c;
     padding: 2px;
@@ -89,7 +88,6 @@ body{
 .conteudo{
     margin-top: 0%;
     width: 72%;
-    background-color: blueviolet;
     margin: 120px auto;
     padding: 50px;
     border-radius: 10px;
@@ -111,4 +109,35 @@ body{
   
 .footer .links a:hover {
     color: #fff;
+}
+
+@media (max-width: 720px) {
+
+body{
+    position: absolute;
+}
+
+.logo img{
+    width: 120px;
+}
+  
+.avatar{
+    width: 110px;
+}
+  
+.fonte--grande{
+    font-size: 2.2rem;
+}
+  
+.fonte--media{
+    font-size: 1.3rem;
+}
+    
+.fonte--pequena{
+    font-size: 1rem;
+}
+  
+.navigation li{
+    width: 130px;
+    font-size: 1.1rem;
 }
