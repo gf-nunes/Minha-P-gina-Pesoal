@@ -39,7 +39,7 @@ body{
     text-align: center;
 }
   
-.conteudo {
+.conteudo{
     line-height: 3rem;
     width: 72%;
     max-width: 940px;
@@ -85,18 +85,11 @@ body{
    text-decoration: none;
 }
 
-.conteudo{
-    margin-top: 0%;
-    width: 72%;
-    margin: 120px auto;
-    padding: 50px;
-    border-radius: 10px;
-}
-
 .habilidades label {
-    width: 280px;
+    width: 260px;
     display: inline-block;
-  }
+    margin: 0;
+}
   
 .habilidades progress {
     accent-color: #2e2d4c;
@@ -140,4 +133,5 @@ body{
 .navigation li{
     width: 130px;
     font-size: 1.1rem;
+}
 }
