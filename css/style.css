@@ -72,6 +72,42 @@ body{
     margin-bottom: 20px;
   }
 
+.pa2{
+    padding: 6px;
+}
+  
+.pa4{
+    padding: 12px;
+}
+  
+.pr2{
+    padding-right: 6px;
+}
+  
+.pr4{
+    padding-right: 12px;
+}
+
+.logotipo{
+    color: #2e2d4c;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    font-size: 1.8rem;
+    padding-top: 10px;
+    z-index: 1;
+}
+
+.logomarca.fundo {
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-right: 50%;
+    margin-top: -50px;
+    transform: translateX(50%) rotate(45deg);
+}
+
 .menu li{
     display: inline-block;
     width: 150px;
@@ -93,6 +129,14 @@ body{
   
 .habilidades progress {
     accent-color: #2e2d4c;
+}
+
+.footer {
+    position: relative;
+    padding: 120px;
+    background-color: #1b1a2f;
+    color: #fff;
+    text-align: center;
 }
 
 .footer .links a {
