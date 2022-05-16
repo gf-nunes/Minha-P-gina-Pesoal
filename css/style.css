@@ -1,5 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
-    background-color: #2e2d4c;
     font-family: "Lora", serif;
 }
 
@@ -121,10 +124,10 @@ body{
    text-decoration: none;
 }
 
+
 .habilidades label {
     width: 260px;
     display: inline-block;
-    margin: 0;
 }
   
 .habilidades progress {
@@ -139,10 +142,32 @@ body{
     text-align: center;
 }
 
+ul.experiencia {
+    padding-left: 26px;
+  }
+
 .footer .links a {
     text-decoration: none;
     font-size: 1.4rem;
 }
+
+.btn-inicio {
+    width: 60px;
+    background-color: white;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 2.8rem;
+    text-align: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1;
+    opacity: 0.3;
+  }
+  
+  .btn-inicio:hover {
+    opacity: 0.9;
+  }
   
 .footer .links a:hover {
     color: #fff;
